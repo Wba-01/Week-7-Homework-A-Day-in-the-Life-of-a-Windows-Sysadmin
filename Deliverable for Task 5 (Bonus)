@@ -1,0 +1,46 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20220222031653
+Username: DESKTOP-SITPOTH\sysadmin
+RunAs User: DESKTOP-SITPOTH\sysadmin
+Configuration Name: 
+Machine: DESKTOP-SITPOTH (Microsoft Windows NT 10.0.19041.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 9564
+PSVersion: 5.1.19041.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1
+BuildVersion: 10.0.19041.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20220222031837
+**********************
+PS C:\Users\sysadmin> cd C:\Windows\
+**********************
+Command start time: 20220222031840
+**********************
+PS C:\Windows> C:\Users\sysadmin\Documents\enum_acls.ps1
+
+
+    Directory: C:\Users\sysadmin\Documents
+
+
+Path          Owner                  Access
+----          -----                  ------
+20220222      BUILTIN\Administrators NT AUTHORITY\SYSTEM Allow  FullControl...
+enum_acls.ps1 BUILTIN\Administrators NT AUTHORITY\SYSTEM Allow  FullControl...
+
+
+    Directory: C:\Users\sysadmin\Documents\20220222
+
+
+Path                                                              Owner                  Access
+----                                                              -----                  ------
+PowerShell_transcript.DESKTOP-SITPOTH.wvn5gocL.20220222031652.txt BUILTIN\Administrators NT AUTHORITY\SYSTEM Allow  ...
+PowerShell_transcript.DESKTOP-SITPOTH.Zzy1AoUa.20220222023133.txt BUILTIN\Administrators NT AUTHORITY\SYSTEM Allow  ...
+
+
